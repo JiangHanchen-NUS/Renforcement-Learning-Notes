@@ -24,6 +24,7 @@ Stochastic Approximation, Robbins-Monro Algorithm, Stochastic Gradient Descent
 
 8. What is the convergence conditions and their meanings of SGD?
 9. Explain the converge pattern of SGD.
+10. Explain the intuitive explanation of convex function and its sufficient condition in single-variable function.
 
 
 
@@ -76,3 +77,5 @@ Stochastic Approximation, Robbins-Monro Algorithm, Stochastic Gradient Descent
 ​	(c) is a general condition.
 
 9. If the estimate w<sub>k</sub> is far from the solution w<sup>*</sup>, then it converges fast. By contrast, it behaves more randomly and slow when they are close.
+
+10. For convex function, the line segment connecting any two points on the function graph always lies above the graph. Its sufficient condition is the second derivative of the function is always greater than or equal to 0.
