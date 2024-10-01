@@ -66,6 +66,8 @@ TD Learning for State Values, Sarsa, n-step Sarsa, Q-learning, Online/Offline, O
 
 <img src="assets/image-20240930120916241.png" alt="image-20240930120916241" style="zoom:50%;" />
 
+​	Not all states can gain a optimal policy. TD only focus on finding a optimal path to reach the target state. However, if the expeirence data is enough sufficient, it can still gain optimal policy for every state.
+
 6. Expected sarsa replaces q<sub>k</sub>(s<sub>t+1</sub>, a<sub>t+1</sub>) with E[q<sub>k</sub>(s<sub>t+1</sub>, A)] = Σ<sub>a</sub>π<sub>t</sub>(a|s<sub>t+1</sub>)q<sub>k</sub>(s<sub>t+1</sub>,a) = v<sub>t</sub>(s<sub>t+1</sub>). It can reduce the estimate variance of sarsa for deleting the random variable a<sub>t+1</sub>.
 7. The learning rate should decrease but cannot decrease very fast.
 
