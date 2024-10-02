@@ -40,7 +40,7 @@ TD of state values with function approximation, Sarsa with function approximatio
 
 <img src="assets/image-20241001100211822.png" alt="image-20241001100211822" style="zoom:50%;" />
 
-​	Second is artificial nerual networks. The input is a state and out put is the estimation of state value. 	Artificial neural networks can approximate values as black-box universal nonlinear approximators, 	which are more friendly to use.
+​	Second is artificial nerual networks. The input is a state and out put is the estimation of state 	value. Artificial neural networks can approximate values as black-box universal nonlinear 	    	approximators, which are more friendly to use.
 
 3. We define objective funtion and minimize it:
 
@@ -83,3 +83,6 @@ TD of state values with function approximation, Sarsa with function approximatio
 <img src="assets/image-20241001125513420.png" alt="image-20241001125513420" style="zoom:50%;" />
 
 <img src="assets/image-20241001125554988.png" alt="image-20241001125554988" style="zoom:50%;" />
+
+
+
